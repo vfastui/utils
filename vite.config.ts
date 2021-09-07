@@ -7,7 +7,7 @@ export default defineConfig({
         lib: {
             entry: resolve(__dirname, 'src/index.ts'),
             name: 'fastutils',
-            fileName: 'fastutils.es.js',
+            fileName: 'fastutils',
             formats: ['es']
         },
         minify: false,
